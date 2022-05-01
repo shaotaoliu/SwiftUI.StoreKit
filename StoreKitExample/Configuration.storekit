@@ -1,0 +1,181 @@
+{
+  "identifier" : "0E48E86B",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "299.99",
+      "familyShareable" : false,
+      "internalID" : "6B38A13B",
+      "localizations" : [
+        {
+          "description" : "Purchase Apple Watch Series 6",
+          "displayName" : "Apple Watch",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.apple.watch",
+      "referenceName" : "Apple Watch",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "799.99",
+      "familyShareable" : false,
+      "internalID" : "67A9CA8F",
+      "localizations" : [
+        {
+          "description" : "iPhone 13 Pro",
+          "displayName" : "Apple iPhone",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.apple.phone",
+      "referenceName" : "Apple Phone",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1299.99",
+      "familyShareable" : false,
+      "internalID" : "910BA76A",
+      "localizations" : [
+        {
+          "description" : "This is Apple iPad",
+          "displayName" : "Apple iPad",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.apple.pad",
+      "referenceName" : "Apple Pad",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2799.99",
+      "familyShareable" : false,
+      "internalID" : "AE9CCAFA",
+      "localizations" : [
+        {
+          "description" : "This is Apple Mac Pro",
+          "displayName" : "Apple Mac",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.apple.mac",
+      "referenceName" : "Apple Mac",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "38.00",
+      "familyShareable" : false,
+      "internalID" : "4BE1EDF2",
+      "localizations" : [
+        {
+          "description" : "Sony Wireless Headphones",
+          "displayName" : "Headphone",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.amzn.headphone",
+      "referenceName" : "Headphone",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "589.99",
+      "familyShareable" : false,
+      "internalID" : "BB8EA5DD",
+      "localizations" : [
+        {
+          "description" : "Gotrax G4 Electric Scooter",
+          "displayName" : "Scooter",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.amzn.scooter",
+      "referenceName" : "Scooter",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "21.80",
+      "familyShareable" : false,
+      "internalID" : "D2D9029A",
+      "localizations" : [
+        {
+          "description" : "Geometric Backpack for Girls",
+          "displayName" : "Backpack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.amzn.backpack",
+      "referenceName" : "Backpack",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "A49EBCED",
+      "localizations" : [
+
+      ],
+      "name" : "Living",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "10.00",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "8F65A888",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Southern Living Print Magazine",
+              "displayName" : "Southern Living",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.sub.living",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Southern Living",
+          "subscriptionGroupID" : "A49EBCED",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "22",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "1AE63C98",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Traditional Home Pring Magazine",
+              "displayName" : "Traditional Home",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.sub.home",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Traditional Home",
+          "subscriptionGroupID" : "A49EBCED",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}
