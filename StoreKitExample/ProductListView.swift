@@ -15,6 +15,23 @@ struct ProductListView: View {
             }
             .listStyle(.plain)
             .navigationTitle("Products")
+            .toolbar {
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button("Review") {
+                        
+                        if let scene = UIApplication.shared.connectedScenes.first(where: {
+                            $0.activationState == .foregroundActive
+                        }) as? UIWindowScene {
+                            SKStoreReviewController.requestReview(in: scene)
+                        }
+                        
+//                        // UIKit:
+//                        if let scene = view.window?.windowScene {
+//                            SKStoreReviewController.requestReview(in: scene)
+//                        }
+                    }
+                }
+            }
         }
     }
     

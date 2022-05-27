@@ -21,6 +21,15 @@ struct PurchaseListView: View {
             }
             .listStyle(.plain)
             .navigationTitle("Purchases")
+            .toolbar {
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button("Review") {
+                        if let url = URL(string: "https://apps.apple.com/app/idxxxxxxxx?action=write-review") {
+                            UIApplication.shared.open(url)
+                        }
+                    }
+                }
+            }
         }
         .onAppear {
             Task {
